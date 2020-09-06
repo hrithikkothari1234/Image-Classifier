@@ -1,12 +1,16 @@
-## React Image Classifier
+## React-Django Image Classifier
 
-React application that accesses an image classifier provided by a django API.
-Images are dragged and dropped, sent to the django backend, which returns the
-classification label.
+# Webapp that classifies an image using a pre-trained keras model. <br/>
+Techs: <br/>
 
-### Front
-![](https://github.com/kupchoy/React-Image-Classifier/blob/master/img_classifier_dark.PNG "home page")
+* Frontend : React.js
+* Backend: Django Rest Api
 
-### Back
-![](https://github.com/kupchoy/React-Image-Classifier/blob/master/django-img-classifier.PNG "back end")
+### Homepage before uploading an image
+![](https://github.com/hrithikkothari1234/Image-Classifier/blob/master/example/homepage.png)
 
+### Homepage after prediction 
+![](https://github.com/hrithikkothari1234/Image-Classifier/blob/master/example/predicted_example.png)
+
+### Historypage with all previous predictions 
+![](https://github.com/hrithikkothari1234/Image-Classifier/blob/master/example/historypage.png)
