@@ -33,5 +33,3 @@ $ python manage.py makemigrations
 $ python manage.py migrate
 $ python manage.py runserver
 ```
-<br />
-Then you're good to go.
