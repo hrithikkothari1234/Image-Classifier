@@ -25,5 +25,6 @@ yarn-error.log*
 
 
 ### DJAngo
-/__pycache__
+/__pycache__/
 /media
+media/
