@@ -1,6 +1,6 @@
 ## React-Django Image Classifier
 
-# Webapp that classifies an image using a pre-trained keras model. <br/>
+### Webapp that classifies an uploaded image <br/>
 Techs: <br/>
 
 * Frontend : React.js
@@ -14,3 +14,24 @@ Techs: <br/>
 
 ### Historypage with all previous predictions 
 ![](https://github.com/hrithikkothari1234/Image-Classifier/blob/master/example/historypage.png)
+
+### To clone this project
+1) Setup Frontend
+
+```
+$ cd frontend_react
+$ npm install           
+$ npm start              
+```
+
+2) Setup Backend
+
+```
+$ cd backend_djangoapi
+$ pip install requirements.txt
+$ python manage.py makemigrations
+$ python manage.py migrate
+$ python manage.py runserver
+```
+<br />
+Then you're good to go.
